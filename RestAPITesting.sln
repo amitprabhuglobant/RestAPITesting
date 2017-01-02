@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RestAPITesting", "src\RestAPITesting\RestAPITesting.xproj", "{DAEE0917-610A-4BC1-B085-20E881548F3A}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RestClientLibrary", "src\RestClientLibrary\RestClientLibrary.xproj", "{A9B46D0B-4C53-41E6-91BB-E1A7AC1436DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{DAEE0917-610A-4BC1-B085-20E881548F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAEE0917-610A-4BC1-B085-20E881548F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAEE0917-610A-4BC1-B085-20E881548F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B46D0B-4C53-41E6-91BB-E1A7AC1436DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B46D0B-4C53-41E6-91BB-E1A7AC1436DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B46D0B-4C53-41E6-91BB-E1A7AC1436DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B46D0B-4C53-41E6-91BB-E1A7AC1436DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DAEE0917-610A-4BC1-B085-20E881548F3A} = {485B9D4C-EC13-44D5-A9BB-5664AA2DA21A}
+		{A9B46D0B-4C53-41E6-91BB-E1A7AC1436DA} = {485B9D4C-EC13-44D5-A9BB-5664AA2DA21A}
 	EndGlobalSection
 EndGlobal
