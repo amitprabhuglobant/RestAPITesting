@@ -19,8 +19,7 @@
         public void GetProductsTest()
         {
             var client = new ProductClient();
-            var results = client.GetProductsByID(1);
-            
+            var results = client.GetProductsByID(1);            
             Assert.AreEqual(results.ProductID, 1);
         }
     }
